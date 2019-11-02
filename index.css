@@ -63,3 +63,35 @@ table.a {
     margin-right:auto;
     color: black;
 }
+#carouselExampleControls{
+  width:400px;
+  height:400px;
+  left:370px;
+}
+
+.item{
+    background: white;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+}
+
+.carousel{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bs-example{
+	margin: 20px;
+}
+
+.carousel.carousel-fade .item {
+  opacity:0;
+  filter: alpha(opacity=0);
+}
+
+.carousel.carousel-fade .active.item {
+    opacity:1;
+    filter: alpha(opacity=100);
+}
+
